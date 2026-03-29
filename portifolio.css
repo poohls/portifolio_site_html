@@ -1,16 +1,54 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     padding: 0;
     background-color: #f5f7fa;
 }
 
-header {
-    background: #1e2a38;
-    color: white;
-    padding: 15px 0;
-    text-align: center;
+#logo {
+    height: 120px;
+    width: 120px;
+    padding: 0 140px 0 10px;
+    margin: 0 0 5px 20px;
 }
 
+header {
+    display: flex;
+    flex-direction: row;
+    background: #1e2a38;
+    color: white;
+    text-align: center;
+    ;
+}
+
+.header-texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header-texto h1 {
+    margin: 0;
+    padding: 0 0 0 80px;
+    font-size: 60px;
+}
+
+.header-texto h2 {
+    margin: 0;
+    padding: 0 0 0 80px;
+    font-size: 24px;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    margin: 0 0 20px 100px;
+    padding: 0 20px 10px 10px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+}
 
 #foto-perfil {
     gap: 30px;
@@ -21,27 +59,27 @@ header {
     margin: 20px auto;
     object-fit: cover;
     box-sizing: border-box;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.8);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.8);
 }
 
 .secao {
-max-width:900px;
-margin:auto;
-padding:30px 20px;
-font-size: 24px;
+    max-width: 900px;
+    margin: auto;
+    padding: 30px 20px;
+    font-size: 24px;
 }
 
 .caixa {
-color: rgb(17, 21, 24);
-font-family: 'Times New Roman', Times, serif;
-text-align: justify;
-background:white;
-padding:20px;
-margin-top: 5px;
-margin-left: 200px;
-margin-right: 200px;
-border-radius:10px;
-box-shadow:0 2px 8px rgba(0,0,0,0.08);
+    color: rgb(17, 21, 24);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    background: white;
+    padding: 20px;
+    margin-top: 5px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
 
 
